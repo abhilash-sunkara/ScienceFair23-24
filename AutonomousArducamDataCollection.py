@@ -54,7 +54,7 @@ if __name__ == "__main__":
     t_end = time.time() + 60 * 10 * 60
     i = 0
     while time.time() < t_end:
-        time.sleep(2)
+        time.sleep(60)
         camera.takeImage(getImgString(i))
         i = i+1
 

@@ -44,7 +44,7 @@ class Camera(object):
 
 
 def getImgString(num):
-    return "image" + num + ".jpg"
+    return "image" + str(num) + ".jpg"
 
 
 if __name__ == "__main__":
